@@ -90,3 +90,14 @@ a {
 a:hover {
   color: #7a1fa2;
 }
+@media (max-width: 600px) {
+    nav a {
+        display: block;
+        margin: 10px 0;
+    }
+
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+}
